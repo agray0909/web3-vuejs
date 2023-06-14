@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_web3_vuejs_1686763011695-pr-trigger-input-set
+  identifier: Build_web3_vuejs_1686763011695prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_web3_vuejs_1686763011695
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
